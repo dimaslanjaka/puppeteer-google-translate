@@ -23,7 +23,8 @@
 	"scripts": {
 		"test": "jest",
 		"format": "prettier --w .",
-		"build": "rm -rf ./lib && tsc"
+		"build": "rm -rf ./lib && tsc",
+		"install-puppeteer": "node node_modules/puppeteer/install.js"
 	},
 	"dependencies": {
 		"puppeteer": "^8.0.0"

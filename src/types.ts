@@ -1,9 +1,11 @@
 export interface PuppeteerOptions {
+	[key: string]: any;
 	headless?: boolean;
 	timeout?: number;
 }
 
 export interface Options extends PuppeteerOptions {
+	[key: string]: any;
 	from?: lang | 'auto';
 	to: lang;
 }
